@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>INCOME-EXPENSEVE TRACKER</title>
+</head>
+<body>
+    <div class="container">
+        <div class="ledger">
+
+            <h2>INCOME-EXPENSEVE TRACKER</h2>
+            <h1>your balance</h1>
+            <h3 id="bal">₹0.00</h3>
+
+            <div class="inc-exp-cont">
+                <div class="inc">
+                    <h4>INCOME</h4>
+                    <h6><div class="amt-inc" id="inc-amt">₹0.00</div></h6>
+                </div>
+
+                <div class="exp">
+                    <h4>EXPENSVE</h4>
+                   <h6> <div class="amt-inc" id="exp-amt">₹0.00</div></h6>
+                </div>
+            </div>
+            <form action="#" id="form">
+                <div class="form-control">
+                   <label for="des">descripition:</label>
+                  <input type="text" name="des" id="des" placeholder="ENTER DESCRIPITON">
+                </div>
+
+                <div class="form-control">
+                    <label for="amount">amount:</label>
+                    <input type="number" name="amount" id="amount" placeholder="ENTER AMOUNT">
+                </div>
+                <button class="btn" type="submit" id="btn-amt">Add transcaption</button>
+            </form>
+            </div>
+
+            <div class="transcation">
+           <h3>transcaion</h3>
+           <ul class="trans" id="trans">
+            <li class="exp">
+                 FOOD
+                 <SPan>-3000</SPan>
+                 <BUtton class="btn-del">x</BUtton>
+            </li>
+
+            <li class="inc">
+                STROCK
+                <SPan>+500</SPan>
+                <BUtton class="btn-del">x</BUtton>
+           </li>
+
+           <li class="inc">
+                POCKET MONEY
+                <SPan>+50000</SPan>
+                <BUtton class="btn-del">x</BUtton>
+           </li>
+
+           <li class="exp">
+            HOUSE-RENT
+            <SPan>-2500</SPan>
+            <BUtton class="btn-del">x</BUtton>
+       </li>
+       
+           </ul>
+        </div>
+    </div>
+    <script src="inc-exp.js"></script>
+</body>
+</html>
